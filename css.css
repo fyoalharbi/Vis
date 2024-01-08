@@ -1,0 +1,11 @@
+#box{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+button:hover{
+    color: aquamarine;
+}
