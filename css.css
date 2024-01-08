@@ -9,3 +9,8 @@ p{
 button:hover{
     color: aquamarine;
 }
+html{
+    margin: auto;
+    text-align: center;
+    align-self: center;
+}
