@@ -15,19 +15,21 @@
         
         <p>welcome to the Visualizer!</p>
         <div class="content">
+        </div>
+        enter the items of you list seperated by commas:
+        <Textarea id="input"></Textarea>
             choose the sorting alogrithm
             <div>
-
-                <button>bubble sort</button>
-                <button>quick sort</button>
-                <button>linear sort</button>
-
-            </div>
-            enter the items of you list seperated by commas:
-            <Textarea></Textarea>
+                <select id ="al" multiple>
+                    <option id="bubble">bubble sort</option>
+                    <option id="quick">quick sort</option>
+                    <option id="linear">linear sort</option>
+                </select>
+                        
             
         </div>
-        <button type="submit">get sorting</button>
+       <button id="confirm"type="submit">get sorting</button>
+        <div id="mes"></div>
     </div>
 </body>
 </html>
