@@ -15,12 +15,11 @@ let algo = document.getElementById('al');
 //string -> list of integers
 
 sort.addEventListener('click', () => {
-    let x = document.getElementById('input').value;
+    x = document.getElementById('input').value;
     
-    let ls = x.split(',');// string -> list //
+    ls = x.split(',');// string -> list //
     values = ls.map(n => {  return parseInt(n);} ); //convert to INT 
-    
-    let validity = values.every(n => {return ValidateInput(n)});
+    validity = values.every(n => {return ValidateInput(n)});
 
     if (!validity){
         ErMes.innerText = "Enter a number";

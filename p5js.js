@@ -7,7 +7,7 @@ function draw(){
 
     for(let i = 0 ; i < values.length ; i++){
         stroke(255);
-        linear(i, values[i], i)
+        ellipse(i, 100, 50, 50);
     }
 }
 function CreateNodes(){
@@ -17,7 +17,7 @@ function linearfun(n){
 
 }
 function quickfun(n){
-    alert(n);
+    
 }
 function bubblefun(n){
 
